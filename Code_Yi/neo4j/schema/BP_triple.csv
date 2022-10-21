@@ -1,0 +1,16 @@
+﻿node1,node2,relation
+Compound,BPNumber,ANALYZED_BY
+BPNumber,Instrumentation,HAS_A
+BPNumber,GeneralSupplies,HAS_A
+BPNumber,EquipmentSupplies,HAS_A
+BPNumber,PipettesSupplies,HAS_A
+BPNumber,AutomationSupplies,HAS_A
+BPNumber,ReferenceStandards,HAS_A
+BPNumber,StandardPreparation,HAS_A
+BPNumber,QCPreparation,HAS_A
+BPNumber,ISPreparation,HAS_A
+BPNumber,Chromatography,HAS_A
+BPNumber,ExtractionMethod,HAS_A
+BPNumber,Procedure,HAS_A
+BPNumber,OperatingParameters,HAS_A
+BPNumber,SystemSuitability,HAS_A
