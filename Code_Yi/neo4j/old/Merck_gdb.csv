@@ -1,0 +1,17 @@
+Source,Target,relation
+Compound:SIL MK-4321,Compound:MK-2145,is_internalStandard_of
+Compound:SIL MK-4321,Chromatography:reserse phase liquid chromatography_1,is_internalStandard_of
+Compound:MK-2145,Chromatography:reserse phase liquid chromatography_1,is_analyte_of
+Compound:MK-2145,Bioanalytical Procedure:BP-1224,is_analyzed_by
+Bioanalytical Procedure:BP-1224,Extraction Method:protein precipitation_1,has_a
+Extraction Method:protein precipitation_1,Chromatography:reserse phase liquid chromatography,has_a
+Extraction Method:protein precipitation_1,Standard Solution Preparation:50/50 ACN/H2O,has_a
+Extraction Method:protein precipitation_1,Anticoagulant:EDTA,has_a
+Compound:SIL MK-4321,Compound:MK-2345,is_internalStandard_of
+Compound:SIL MK-4321,Chromatography:reserse phase liquid chromatography_2,is_internalStandard_of
+Compound:MK-2345,Chromatography:reserse phase liquid chromatography_2,is_analyte_of
+Compound:MK-2345,Bioanalytical Procedure:BP-1234,is_analyzed_by
+Bioanalytical Procedure:BP-1224,Extraction Method:protein precipitation_2,has_a
+Extraction Method:protein precipitation_2,Chromatography:reserse phase liquid chromatography_2,has_a
+Extraction Method:protein precipitation_2,Standard Solution Preparation:50/50 ACN/H2O,has_a
+Extraction Method:protein precipitation_2,Anticoagulant:EDTA,has_a
