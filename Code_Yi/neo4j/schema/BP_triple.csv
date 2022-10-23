@@ -18,3 +18,4 @@ BP,MassSpectrometer,HAS_A
 BP,Anticoagulant,HAS_A
 BP,BiologicalMatrices,HAS_A
 BP,MatrixQCs,HAS_A
+BP,LLOQ,HAS_A
