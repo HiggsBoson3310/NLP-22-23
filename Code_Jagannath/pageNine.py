@@ -59,9 +59,6 @@ mkNumber = noneOrNo(mkNumber)
 print(mkNumber)
 
 
-
-
-
 #Loops
 loopValue = None
 for g in loops:
@@ -85,10 +82,10 @@ print(mobile_phase_b)
 
 
 #CSV code
-header = ['BP-number, MK-number, Loops, Elution, Mobile-Phase-A, Mobile-Phase-B']
+header = ['BP-number, MK-number, Loops, Mobile-Phase-A, Mobile-Phase-B']
 
 data = [
-	[bpNumber, mkNumber, loops, elution, mobile_phase_a, mobile_phase_b ]
+	[bpNumber, mkNumber, loops, mobile_phase_a, mobile_phase_b ]
 ]
 
 with open('Page9.csv','w', encoding = 'UTF8', newline = '') as f:
