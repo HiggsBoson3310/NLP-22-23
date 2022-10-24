@@ -1,0 +1,83 @@
+Node,Property,Value
+Compound,MK_number,MK-0011
+Compound,L_number,L-000000002
+Compound,MK_number,
+Compound,L_number,L-000000009
+BP,BP_number,BP-0002
+BP,Lead_analyst,Madison Lazeration 
+BP,Method_developer,Tonya Jackson
+BP,PI,James Schiller 
+BP,Matrix,plasma
+Instrumentation,BP_number,BP-0002
+Instrumentation,Instrumentation_table,
+GeneralSupplies,BP_number,BP-0002
+GeneralSupplies,General_supplies_table,
+EquipmentSupplies,BP_number,BP-0002
+EquipmentSupplies,Equipment_supplies_table,
+PipettesSupplies,BP_number,BP-0002
+PipettesSupplies,Pipettes_supplies_table,
+AutomationSupplies,BP_number,BP-0002
+AutomationSupplies,Automation_supplies_table,
+ReferenceStandards,BP_number,BP-0002
+ReferenceStandards,Reference_standards_table,
+StandardPreparation,BP_number,BP-0002
+StandardPreparation,Diluent,
+StandardPreparation,Storage_temp,
+StandardPreparation,Solvent,
+StandardPreparation,Density,
+StandardPreparation,Standard_spike_volume,
+StandardPreparation,Standard_matrix_volume,
+QCPreparation,BP_number,BP-0002
+QCPreparation,Storage_details,
+QCPreparation,Solvent,
+QCPreparation,Diluent,
+QCPreparation,Stock_volume,
+ISPreparation,BP_number,BP-0002
+ISPreparation,Solvent,
+ISPreparation,Stock_density,
+ISPreparation,Storage_temp,
+ISPreparation,Working_density,
+ISPreparation,IS_volume,
+ISPreparation,Diluent,
+ISPreparation,Diluent_volume,
+Chromatography,BP_number,BP-0002
+Chromatography,Method ,
+Chromatography,Internal_standard,
+ExtractionMethod,BP_number,BP-0002
+ExtractionMethod,Name,protein precipitation
+ExtractionMethod,Species,rabbit 
+ExtractionMethod,Matrix,plasma 
+ExtractionMethod,Matrix_sample_quantity,20 µL
+Procedure,BP_number,BP-0002
+Procedure,Blank_matrix_steps,
+Procedure,Biological_matrix_steps,
+Procedure,Sample_preparation_table,
+Procedure,Vortex_time,
+Procedure,Vortex_RPM,
+OperatingParameters,BP_number,BP-0002
+OperatingParameters,UPLC_parameters_table,
+OperatingParameters,UPLC_table,
+OperatingParameters,Wash_table,
+OperatingParameters,MS_paramters_table,
+OperatingParameters,Ions_table,
+SystemSuitability,BP_number,BP-0002
+SystemSuitability,Valid_observations,
+SystemSuitability,Stability_assessment_density,
+SystemSuitability,Analysis_table,
+MassSpectrometer,BP_number,BP-0002
+MassSpectrometer,Interface,reversed phase liquid chromatography
+MassSpectrometer,Ion mode,positive 
+MassSpectrometer,Compound_MRM,517.2 -> 346.1
+MassSpectrometer,Internal_standard_MRM,522.4 -> 351.2
+Anticoagulant,BP_number,BP-0002
+Anticoagulant,Name,EDTA
+Anticoagulant,Storage_temp,-70°C
+BiologicalMatrices,BP_number,BP-0002
+BiologicalMatrices,Biological_matrices_table,
+MatrixQCs,BP_number,BP-0002
+MatrixQCs,Preparation_instructions,
+MatrixQCs,Aliquot_volume,
+LLOQ,BP_number,BP-0002
+LLOQ,LLOQ,22.0 ng/mL
+LLOQ,Regression_model,linear 
+LLOQ,Calibration_range,"22.0 to 22,000 ng/mL"
