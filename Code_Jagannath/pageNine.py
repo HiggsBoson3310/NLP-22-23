@@ -31,8 +31,6 @@ loops = ["Partial Loop"]
 elution = ["Gradient, Isocratic"]
 #Mobile_Phase_A
 mobile_phase_a = []
-#Mobile_Phase_B
-mobile_phase_b = []
 
 reader = PdfReader("BP-0001.pdf")
 doc_length = len(reader.pages)
@@ -40,7 +38,7 @@ page = reader.pages[8]
 t = page.extract_text()
 text = str(t)
 
-print(t)
+
 
 def noneOrNo(searchInput): 
 	if searchInput != None:
@@ -60,67 +58,9 @@ mkNumber = noneOrNo(mkNumber)
 
 print(mkNumber)
 
-# L Number
-lNumber = None
-lNumber = re.search("L-([^\)]+)",t, re.I)
-lNumber = noneOrNo(lNumber)
 
-print(lNumber)
 
-# Species
-speciesValue = None
-for a in species:
-	speciesValue = re.search('(' + a + ')', t, re.I)
-	if(speciesValue != None):
-		print(speciesValue.group(1))
-		break
 
-# Matrix
-matrixValue = None
-for b in matrix:
-	matrixValue = re.search('(' + b + ')', t, re.I)
-	if(matrixValue != None):
-		print(matrixValue.group(1))
-		break
-
-#Extraction Method
-extractionValue = None
-for c in extraction_method:
-	extractionValue = re.search('(' + c + ')', t, re.I)
-	if(extractionValue != None):
-		print(extractionValue.group(1))
-		break
-
-# Internal Standard
-internalStandard = None
-internalStandard = re.search("SIL-MK-([^\)]+)",t, re.I)
-internalStandard = noneOrNo(internalStandard)
-
-print(internalStandard)
-
-# Chromatography
-chromatographyValue = None
-for d in chromatography:
-	chromatographyValue = re.search('(' + d + ')', t, re.I)
-	if(chromatographyValue != None):
-		print(chromatographyValue.group(1))
-		break
-
-# Turbo Ion Spray
-turboionsprayValue = None
-for e in turbo_ionspray:
-	turboionsprayValue = re.search('(' + e + ')', t, re.I)
-	if(turboionsprayValue != None):
-		print(turboionsprayValue.group(1))
-		break
-
-# Polarity
-polarityValue = None
-for f in polarity:
-	polarityValue = re.search('(' + f + ')', t, re.I)
-	if(polarityValue != None):
-		print(polarityValue.group(1))
-		break
 
 #Loops
 loopValue = None
@@ -128,14 +68,30 @@ for g in loops:
     loopValue = re.search('(' + g + ')', t, re.I)
     if(loopValue != None):
         print(loopValue.group(1))
+        loops = loopValue.group(1)
         break
 
+#Mobile Phase A
 mobile_phase_a = None
 mobile_phase_a = re.search("Mobile Phase A (.*)", t, re.I)
 mobile_phase_a = noneOrNo(mobile_phase_a)
 print(mobile_phase_a)
 
+#Mobile Phase B
 mobile_phase_b = None
 mobile_phase_b = re.search("Mobile Phase B (.*)", t, re.I)
 mobile_phase_b = noneOrNo(mobile_phase_b)
 print(mobile_phase_b)
+
+
+#CSV code
+header = ['BP-number, MK-number, Loops, Elution, Mobile-Phase-A, Mobile-Phase-B']
+
+data = [
+	[bpNumber, mkNumber, loops, elution, mobile_phase_a, mobile_phase_b ]
+]
+
+with open('Page9.csv','w', encoding = 'UTF8', newline = '') as f:
+ writer = csv.writer(f)
+ writer.writerow(header);
+ writer.writerows(data);
