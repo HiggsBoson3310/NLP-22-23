@@ -1,0 +1,5 @@
+,"Matrix QCID","Spiking QCSolution Conc.(ng/mL)","SpikeVolume(mL)","MatrixVolume(mL)","FinalVolume(mL)","Matrix QC Conc.(ng/mL)"
+0,HIGH,"7,500 (QC B)",0.3,14.7,15.0,150.0
+1,MID,300 (QC C),0.3,14.7,15.0,6.0
+2,LOW,30.0 (QC D),0.3,14.7,15.0,0.6
+3,LLOQ,10.0 (QC E),0.3,14.7,15.0,0.2
