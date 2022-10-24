@@ -1,2 +1,2 @@
 "BP-number, MK-number, Loops, Elution, Mobile-Phase-A, Mobile-Phase-B"
-0001,0001:,Partial Loop,"['Gradient, Isocratic']",0.1% PA in H 2O ,0.1% PA in ACN 
+0001,0001:,Partial Loop,Gradient,0.1% PA in H 2O ,0.1% PA in ACN 
