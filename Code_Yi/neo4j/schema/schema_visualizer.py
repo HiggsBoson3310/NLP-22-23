@@ -1,7 +1,7 @@
 from pyvis.network import Network
 import pandas as pd
 
-G = Network(height="750px", width="100%", layout=True, directed=True)
+G = Network(height="750px", width="100%", directed=True)
 
 # read the csv
 data = pd.read_csv("BP_triple.csv")
