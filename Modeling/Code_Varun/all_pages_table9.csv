@@ -1,0 +1,13 @@
+,Working,Spiking,Spike,Diluent,Final,Working.1,Plasma
+0,Standard,Standard Solution,Volume,Volume,Volume,Standard,Standard
+1,Solution,Conc.,(mL),(mL),(mL),Conc.,Conc.a
+2,ID,(ng/mL),,,,(ng/mL),(ng/mL)
+3,STD A,"1,000,000 (Stock)",0.200,9.80,10.0,"20,000",N/A
+4,STD 8,"20,000 (STD A)",1.00,9.00,10.0,"2,000",200
+5,STD 7,"20,000 (STD A)",0.800,9.20,10.0,"1,600",160
+6,STD 6,"2,000 (STD 8)",2.00,8.00,10.0,400,40.0
+7,STD 5,"2,000 (STD 8)",1.00,9.00,10.0,200,20.0
+8,STD 4,"2,000 (STD 8)",0.200,9.80,10.0,40.0,4.00
+9,STD 3,200 (STD 5),0.400,9.60,10.0,8.00,0.800
+10,STD 2,200 (STD 5),0.200,9.80,10.0,4.00,0.400
+11,STD 1,200 (STD 5),0.100,9.90,10.0,2.00,0.200
