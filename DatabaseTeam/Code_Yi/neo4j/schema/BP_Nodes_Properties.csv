@@ -1,0 +1,9 @@
+Compound,BP,Instrumentation,GeneralSupplies,EquipmentSupplies,PipettesSupplies,AutomationSupplies,ReferenceStandards,StandardPreparation,QCPreparation,ISPreparation,Chromatography,ExtractionMethod,Procedure,OperatingParameters,SystemSuitability,MassSpectrometer,Anticoagulant,BiologicalMatrices,MatrixQCs,LLOQ
+MK_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number,BP_number
+L_number,Lead_analyst,Instrumentation_table,General_supplies_table,Equipment_supplies_table,Pipettes_supplies_table,Automation_supplies_table,Reference_standards_table,Diluent,Storage_details,Solvent,Method ,Name,Blank_matrix_steps,UPLC_parameters_table,Valid_observations,Interface,Name,Biological_matrices_table,Preparation_instructions,LLOQ
+,Method_developer,,,,,,,Storage_temp,Solvent,Stock_density,Internal_standard,Species,Biological_matrix_steps,UPLC_table,Stability_assessment_density,Ion mode,Storage_temp,,Aliquot_volume,Regression_model
+,PI,,,,,,,Solvent,Diluent,Storage_temp,,Matrix,Sample_preparation_table,Wash_table,Analysis_table,Compound_MRM,,,,Calibration_range
+,Matrix,,,,,,,Density,Stock_volume,Working_density,,Matrix_sample_quantity,Vortex_time,MS_paramters_table,,Internal_standard_MRM,,,,
+,,,,,,,,Standard_spike_volume,,IS_volume,,,Vortex_RPM,Ions_table,,,,,,
+,,,,,,,,Standard_matrix_volume,,Diluent,,,,,,,,,,
+,,,,,,,,,,Diluent_volume,,,,,,,,,,
