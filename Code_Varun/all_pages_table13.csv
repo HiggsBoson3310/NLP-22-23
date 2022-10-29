@@ -1,14 +1,0 @@
-,Step,Activity
-0,1,"Prepare the standard spiked blank plasma as follows:To a microtiter tube, add:180 μL of blank plasma20 μL of the appropriate MK-0001 working standard solution"
-1,2,Cap the microtiter tubes and mix well.  Remove any air bubbles.
-2,3,"Add to a 96-round deep well extraction plate (1.2 mL) the following:For Calibration Standards:20 μL of appropriate plasma standards (from Step 2 above)20 μL of IS working standard solutionFor Blank Samples:20 μL of appropriate blank plasma20 μL of DiluentFor Standard 0 (IS Blank Sample):20 μL of appropriate blank plasma20 μL of IS working standard solutionFor Unknown, Diluted Unknown and Quality Control Samples*:Appropriate volume of unknown sample, diluted unknown or matrix QC (and blankplasma if needed) for a final volume of 20 μL20 μL of IS working standard solution"
-3,4,Add 100 μL of crash solvent (0.1% FA in ACN) to extraction plate.
-4,5,Seal the deep well extraction plate with appropriate plate mat.
-5,6,Vortex for 60 seconds using a multi-vortexer at Speed 6.
-6,7,Centrifuge the plate at 4000 RPM for 10 minutes at ambient temperature.
-7,8,Transfer 50 μL of supernatant to a new deep well collection plate (2-mL).
-8,9,Dilute the supernatant with 50 μL of 0.1% FA in H2O.
-9,10,Seal the deep well collection plate with appropriate storage mat.
-10,11,Vortex for 2 minutes using a multi-vortexer at Speed 6.
-11,12,Centrifuge the plate at 1200 RPM for 1 minute at ambient temperature.
-12,13,Place the deep well plate in the autosampler and inject appropriate volume.

@@ -1,12 +1,0 @@
-,Reagent,Abbreviation,Provider
-0,Deionized water (Milli-Q),H2O,Millipore
-1,Acetonitrile (HPLC or LC/MS),ACN,Fisher
-2,Isopropanol (Chromasolv),IPA,Sigma-Aldrich
-3,Acetone (Chromasolv),ACET,Sigma-Aldrich
-4,Propionic Acid,PA,Fisher
-5,0.1% Formic Acid in Acetonitrile (LC/MS),"0.1% FA in ACN orACN with 0.1% FA",Fisher
-6,0.1% Formic Acid in Water (LC/MS),"0.1% FA in H2O orH2O with 0.1% FA",Fisher
-7,Dimethyl Sulfoxide (Chromasolv Plus),DMSO,Sigma-Aldrich
-8,Formic Acid (98+% pure),FA,Acros
-9,"Water Solution contains 0.1% (v/v) formic acid,20% (v/v) acetonitrile","ACN/H2O/FA[20/80/0.1]",Sigma-Aldrich
-10,"Acetonitrile Solution contains 40.0% 2-propanol,0.05% formic acid, 10.0% acetone","ACN/IPA/Acetone/FA[50/40/10/0.05]",Sigma-Aldrich

@@ -1,2 +1,0 @@
-BP_Number,MK_Number,L_Number,Species,Matrix,Extraction Method,Internal Standard,Chromatography,Turbo-Ionspray,Polarity,m/z Drug From,m/z Drug To,m/z I.S From,m/z I.S To,LLOQ,Regression Model,Calibration Range From,Calibration Range To,Matrix Sample L,Dilutent,Storage Temperature,Anticoagulant,Sample Temperature
-0001,0001,000000001,Rat ,Plasma,protein precipitation,0001,reversed phase,turbo ionspray,positive,457.1,191.0,462.1,191.0,,0.200,200,20,ACN/H 2O [50/50],-70°C,EDTA,+4°C

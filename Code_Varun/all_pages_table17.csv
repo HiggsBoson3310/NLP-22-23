@@ -1,14 +1,0 @@
-,UPLC,Settings,Unnamed: 0
-0,Column,Acquity UPLC® HSS T3 1.8 μm 2.1 x 50mm Column,
-1,Loop Option,Partial Loop,
-2,Needle Type,PEEKSIL (Peptide Needle),
-3,Elution,"Gradient, see below for details",
-4,Flow Rate,0.6 mL/min,
-5,Mobile Phase A,0.1% PA in H2O,
-6,Mobile Phase B,0.1% PA in ACN,
-7,"Injection Volume(injection volume may beadjusted to obtain adequateresponse)",5 μL,
-8,Column Temperature,Ambient,
-9,Autosampler Temperature,15 oC,
-10,Divert,"Waste (A): InitialDetector (B): 1.10 minWaste (A): 2.00 min",
-11,Run Time,3.0 minutes,
-12,Retention Time,MK-0001: 1.60 min.,SIL-MK-0001: 1.60 min.

@@ -1,9 +1,0 @@
-,Solution Name,Preparation Summary,Use,Storage
-0,ACN/H2O [50/50],"500 mL ACN + 500 mL H2O.Mix.",Diluent,Ambient
-1,0.1% FA in ACN,"Purchased or 1 mL FA +1000 mL ACN. Mix.","ExtractionSolvent",Ambient
-2,0.1% PA in H2O,"1 mL PA + 1000 mL H2O.Mix.",Mobile Phase A,Ambient
-3,0.1% PA in ACN,"1 mL PA + 1000 mL ACN.Mix.",Mobile Phase B,Ambient
-4,ACN/H2O/FA [20/80/0.1],"Purchased or 200 mL 0.1%FA in ACN + 800 mL 0.1%FA in H2O. Mix.",Weak Wash,Ambient
-5,"ACN/IPA/Acetone/FA[50/40/10/0.05]","Purchased or 500 mL ACN +400 mL IPA + 100 mLAcetone + 0.5 mL FA. Mix.",Strong Wash,Ambient
-6,ACN/H2O [10/90],"100 mL ACN + 900 mL H2O.Mix.",Seal Wash,Ambient
-7,0.1% FA in H2O,"Purchased or 1 mL FA +1000 mL H2O. Mix.","Post ExtractionDilution Solvent",Ambient
