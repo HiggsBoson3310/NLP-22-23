@@ -1,0 +1,15 @@
+node1,node2,relation
+Compound,BP,ANALYZED_BY
+BP,Instrumentation,HAS_A
+BP,Supply,HAS_A
+Instrumentation,MassSpectrometer,HAS_A
+MassSpectrometer,Manufacturer,SUPPLIED_BY
+MassSpectrometer,Component,HAS_A
+Instrumentation,LC,HAS_A
+LC,Manufacturer,SUPPLIED_BY
+LC,Component,HAS_A
+Instrumentation,LiquidHandling,HAS_A
+LiquidHandling,Manufacturer,SUPPLIED_BY
+LiquidHandling,Component,HAS_A
+Supply,Category,CONTAINS
+Category,Manufacturer,SUPPLIED_BY
