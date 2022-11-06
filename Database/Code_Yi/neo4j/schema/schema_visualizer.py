@@ -32,7 +32,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='Process pdf input')
     parser.add_argument('-i', '--input_path', type=str, default="BP_triple.csv", 
-                        help='The input path to the source pdf file. REQUIRED')
+                        help='The input path to the source csv file. REQUIRED')
     parser.add_argument('-o', '--output_path', type=str, default="schema.html", 
                         help='The output path to the resulting html file. REQUIRED')
     args = parser.parse_args()
