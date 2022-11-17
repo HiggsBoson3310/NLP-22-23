@@ -1,0 +1,60 @@
+BP,Species,Matrix,Extraction Method,Chromatography,Ionization Method,Polarity,Regression Model,Weighting,Dilutent,Anticoagulant,LLOQ,Calibration Range From,Calibration Range To,Matrix Sample Volume,Storage Temperature Standard Solutions,Storage Temperature Matrix Sample,Column Name,Column Manufacturer/Supplier,Microbalance,Analytical Balance,Refrigerated centrifuge,Plate sealer,Adjustable Pipettes,Pipette Tips,Reagent Troughs,L Number,Analyte / L-NumberParent Drug (Analyte),Analyte / L-NumberInternal Standard (IS),FormParent Drug (Analyte),FormInternal Standard (IS),Molecular Weight (free form)Parent Drug (Analyte),Molecular Weight (free form)Internal Standard (IS),Watson IDParent Drug (Analyte),Watson IDInternal Standard (IS),Matrix,Species,Anticoagulant,Supplier,Working Standard Solution ID,Working QC Solution ID,Matrix QC ID,Step,Elution,Mobile Phase A,Mobile Phase B,Ion Source,Ion Mode,Q1/Q3 Resolutions,Scan Type,Temperature,MR pause between mass range,MS settling time,MK Number,MK-0001Q1 m/z,MK-0001Q3 m/z,MK-0001Dwell (ms),MK-0001DP (V),MK-0001EP (V),MK-0001CE (V),MK-0001CXP (V),IS Number,SIL-MK-0001Q1 m/z,SIL-MK-0001Q3 m/z,SIL-MK-0001Dwell (ms),SIL-MK-0001DP (V),SIL-MK-0001EP (V),SIL-MK-0001CE (V),SIL-MK-0001CXP (V),Analyte,Peak Height,Retention time (min),Analyte,Peak Height,Retention time (min),Names
+BP0001,Rat ,Plasma,protein precipitation,reversed phase,turbo ionspray,positive,linear,1/x,ACN/H 2O [50/50],EDTA,0.200 ng/mL,0.200,200,20,-70°C,+4°C,"Volumetric flasks, Class A (non-disposable)",Pyrex,Sartorius,"Sartorius 
+Ohaus","Beckman 
+Eppendorf","Corning 
+Matrix","Labsystem 
+Rainin 
+Fisher 
+Eppendorf 
+Thermo","BioHit 
+Thermo 
+Fisher 
+Eppendorf",Hamilton,Analyte / L-Number,MK-0001 / L-000000001,"[13C2, D3]MK-0001/  
+L-000000001",001H,003M,456.54,461.536,MK-0001,SIL-MK-0001,Plasma,Rat,EDTA,"BioIVT 
+SALAR in house","[['Working \nStandard \nSolution \nID'
+  'Spiking \nStandard Solution \nConc. \n(ng/mL)' 'Spike \nVolume \n(mL)'
+  'Diluent \nVolume \n(mL)' 'Final \nVolume \n(mL)'
+  'Working \nStandard \nConc. \n(ng/mL)'
+  'Plasma \nStandard \nConc.a \n(ng/mL)']
+ ['STD A' '1,000,000 (Stock)' '0.200' '9.80' '10.0' '20,000' 'N/A']
+ ['STD 8' '20,000 (STD A)' '1.00' '9.00' '10.0' '2,000' '200']
+ ['STD 7' '20,000 (STD A)' '0.800' '9.20' '10.0' '1,600' '160']
+ ['STD 6' '2,000 (STD 8)' '2.00' '8.00' '10.0' '400' '40.0']
+ ['STD 5' '2,000 (STD 8)' '1.00' '9.00' '10.0' '200' '20.0']
+ ['STD 4' '2,000 (STD 8)' '0.200' '9.80' '10.0' '40.0' '4.00']
+ ['STD 3' '200 (STD 5)' '0.400' '9.60' '10.0' '8.00' '0.800']
+ ['STD 2' '200 (STD 5)' '0.200' '9.80' '10.0' '4.00' '0.400']
+ ['STD 1' '200 (STD 5)' '0.100' '9.90' '10.0' '2.00' '0.200']]","[['Working QC  \nSolution ID' 'Spiking QC \nSolution Conc.  \n(ng/mL)'
+  'Spike \nVolume \n(mL)' 'Diluent \nVolume \n(mL)'
+  'Final \nVolume \n(mL)' 'Working QC \nSolution Conc. \n(ng/mL)']
+ ['-A-' '1,000,000 (Stock)' '0.200' '1.80' '2.00' '100,000']
+ ['-B-' '100,000  (QC A)' '0.750' '9.25' '10.0' '7,500']
+ ['-C-' '7,500 (QC B)' '0.360' '8.64' '9.00' '300']
+ ['-D-' '300 (QC C)' '1.00' '9.00' '10.0' '30']
+ ['-E-' '300 (QC C)' '0.300' '8.70' '9.00' '10']]","[['Matrix QC \nID' 'Spiking QC \nSolution Conc. \n(ng/mL)'
+  'Spike \nVolume \n(mL)' 'Matrix \nVolume \n(mL)'
+  'Final \nVolume \n(mL)' 'Matrix QC Conc. \n(ng/mL)']
+ ['HIGH' '7,500 (QC B)' '0.300' '14.7' '15.0' '150']
+ ['MID' '300 (QC C)' '0.300' '14.7' '15.0' '6.00']
+ ['LOW' '30.0 (QC D)' '0.300' '14.7' '15.0' '0.600']
+ ['LLOQ' '10.0 (QC E)' '0.300' '14.7' '15.0' '0.200']]","[['Step' 'Activity']
+ ['1'
+  'Prepare the standard spiked blank plasma as follows: \nTo a microtiter tube, add: \n• \n180 µL of blank plasma \n• \n20 µL of the appropriate MK-0001 working standard solution']
+ ['2' 'Cap the microtiter tubes and mix well.  Remove any air bubbles.']
+ ['3'
+  'Add to a 96-round deep well extraction plate (1.2 mL) the following: \nFor Calibration Standards: \n• \n20 µL of appropriate plasma standards (from Step 2 above)  \n• \n20 µL of IS working standard solution \nFor Blank Samples: \n• \n20 µL of appropriate blank plasma \n• \n20 µL of Diluent \nFor Standard 0 (IS Blank Sample): \n• \n20 µL of appropriate blank plasma \n• \n20 µL of IS working standard solution \nFor Unknown, Diluted Unknown and Quality Control Samples*: \n• \nAppropriate volume of unknown sample, diluted unknown or matrix QC (and blank \nplasma if needed) for a final volume of 20 µL \n• \n20 µL of IS working standard solution']
+ ['4' 'Add 100 µL of crash solvent (0.1% FA in ACN) to extraction plate.']
+ ['5' 'Seal the deep well extraction plate with appropriate plate mat.']
+ ['6' 'Vortex for 60 seconds using a multi-vortexer at Speed 6.']
+ ['7'
+  'Centrifuge the plate at 4000 RPM for 10 minutes at ambient temperature.']
+ ['8'
+  'Transfer 50 µL of supernatant to a new deep well collection plate (2-mL).']
+ ['9' 'Dilute the supernatant with 50 µL of 0.1% FA in H2O.']
+ ['10'
+  'Seal the deep well collection plate with appropriate storage mat.']
+ ['11' 'Vortex for 2 minutes using a multi-vortexer at Speed 6.']
+ ['12'
+  'Centrifuge the plate at 1200 RPM for 1 minute at ambient temperature.']
+ ['13'
+  'Place the deep well plate in the autosampler and inject appropriate volume.']]","Gradient, see below for details",0.1% PA in H2O,0.1% PA in ACN,Turbo Ionspray,Positive,unit/unit,MRM,550°C,5.0070 ms,0.0000 ms,MK-0001,457.1,191.0,100.00,50,10,25,14,SIL-MK-0001,462.1,191.0,100.00,50,10,25,14,MK-0001 (0.2 ng/mL plasma STD),≥800 cps,1.60 ± 0.25,MK-0001,≥8000 cps,1.60 ± 0.25, Jieutonne Archer James Marr Tonya Jackson James Schiller    

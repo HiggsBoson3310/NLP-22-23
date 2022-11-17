@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+deta
+pyPDF2
+camelot
+pandas
+python-dotenv
+python-multipart
