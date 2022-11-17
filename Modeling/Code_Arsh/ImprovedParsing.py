@@ -69,7 +69,7 @@ def compoundFindSearch(value, compoundType):
     value = re.search(compoundType + "-([^\s]+)",searchString, re.I)
     value = setIfNotNone(value)
     headers.append(compoundType)
-    rows.append(compoundType + str(value.replace(")","")))
+    rows.append(compoundType + "-" + str(value.replace(")","")))
 
 def valueFindSearchList(value, nameType):
     returnValue = None
@@ -190,7 +190,7 @@ def findLabelRowValues(searchTable):
                         headers.append("MK Number")
                         rows.append(str(searchTable[row][column]))              
                 if column != 0:
-                    headers.append(searchTable[row][0] + str(searchTable[0][column]))
+                    headers.append(searchTable[row][0] + " " + str(searchTable[0][column]))
                     rows.append(searchTable[row][column])
 
 # Get and label values from Rows under Header [Analyte] - Labeling not Based on Column 1
@@ -222,9 +222,9 @@ def findLabelRowValuesButTextIsTooClose(searchTable, searchColumns):
 counter = 0
 
 for table in tables:
-    if "Category" in re.sub(' +',' ', table.df.at[0,0].replace("\n", "")) and "Mass Spectrometer " in re.sub(' +',' ', table.df.at[0,0].replace("\n", "")):
+    if "Category" in re.sub(' +',' ', table.df.at[0,0].replace("\n", "")) and "Mass Spectrometer" in re.sub(' +',' ', table.df.at[1,0].replace("\n", "")):
         columnValues = ["Components"]
-        rowValues = ["Mass Spectrometer", "LC", "Liquid Handling"]
+        rowValues = ["Mass Spectrometer", "Liquid Handling"]
         findColumnRowValues(table.df.to_numpy(), columnValues, rowValues)
     elif "Category (General)" in re.sub(' +',' ', table.df.at[0,0].replace("\n", "")):
         l = len(table.df.to_numpy())
