@@ -35,9 +35,9 @@ mainCompound = []
 # List Values
 
 # Species
-species = ["Rat ", "Monkey ", "Dog ", "Cat ", "Rabbit ", "Human "]
+species = [" Rat ", " Monkey ", " Dog ", " Cat ", " Rabbit ", " Human "]
 # Matrix
-matrix = ["Plasma", "Urine", "Serum", "Liver", "Brain"]
+matrix = [" Plasma " , " Urine ", " Serum ", " Liver ", " Brain "]
 # Extraction Method
 extraction_method = ["protein precipitation", "liquid liquid extraction", "solid phase extraction", "immunoprecipitation", "solid liquid extraction"]
 # Chromatography
