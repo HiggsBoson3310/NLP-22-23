@@ -1,0 +1,110 @@
+BP,Species,Matrix,Extraction Method,Chromatography,Ionization Method,Polarity,Regression Model,Weighting,Dilutent,Anticoagulant,LLOQ,Calibration Range From,Calibration Range To,Matrix Sample Volume,Storage Temperature Standard Solutions,Storage Temperature Matrix Sample,Special Requirements,Mass Spectrometer,Liquid Handling,Column Name,Column Manufacturer/Supplier,Microbalance,Analytical Balance,Refrigerated centrifuge - 96-well,Refrigerated centrifuge,Plate sealer,Adjustable Pipettes,Pipette Tips,Reagent Troughs,L Number,"Analyte / L-Number Parent Drug 
+(Analyte)","Analyte / L-Number Epimer 
+(Analyte)",Analyte / L-Number Internal Standard (IS),"Form Parent Drug 
+(Analyte)","Form Epimer 
+(Analyte)",Form Internal Standard (IS),"Molecular Weight 
+(free form) Parent Drug 
+(Analyte)","Molecular Weight 
+(free form) Epimer 
+(Analyte)","Molecular Weight 
+(free form) Internal Standard (IS)","Watson ID Parent Drug 
+(Analyte)","Watson ID Epimer 
+(Analyte)",Watson ID Internal Standard (IS),Matrix,Species,Anticoagulant,Supplier,Mixed Intermediate Standard Solution ID,Working Standard Solution ID,Mixed Intermediate QC Solution ID,Working QC Solution ID,Matrix QC ID,Step,Elution,Mobile Phase A,Mobile Phase B,Ion Source,Ion Mode,Q1/Q3 Resolutions,Scan Type,Temperature,MR pause between mass range,MS settling time,MK Number,MK-0011Q1 m/z,MK-0011Q3 m/z,MK-0011Dwell (ms),MK-0011DP (V),MK-0011EP (V),MK-0011CE (V),MK-0011CXP (V),L Number,L-000000009Q1 m/z,L-000000009Q3 m/z,L-000000009Dwell (ms),L-000000009DP (V),L-000000009EP (V),L-000000009CE (V),L-000000009CXP (V),IS Number,SIL-MK-0011Q1 m/z,SIL-MK-0011Q3 m/z,SIL-MK-0011Dwell (ms),SIL-MK-0011DP (V),SIL-MK-0011EP (V),SIL-MK-0011CE (V),SIL-MK-0011CXP (V),IS Number,SIL-L-000000009Q1 m/z,SIL-L-000000009Q3 m/z,SIL-L-000000009Dwell (ms),SIL-L-000000009DP (V),SIL-L-000000009EP (V),SIL-L-000000009CE (V),SIL-L-000000009CXP (V),Analyte,Peak Height,"Retention time 
+(min)","Retention time 
+difference for 
+MK-0011 and 
+L-000000009 
+(min)",Analyte,Peak Height,Retention time (min),"Retention time 
+difference for 
+MK-0011 and 
+L-000000009 
+(min)",Names
+BP-0002,RAT ,Plasma,protein precipitation,reversed phase,turbo ionspray,positive,linear,1/x,ACN/H 2O [50/50],EDTA,22.0 ng/mL,22.0,22000,20,-70°C,+4°C, • Protection from light required • Pre-column tubing required • Use shutd own method to return column temperature to ambient conditions as appropriate • Thaw and maintain matrix QCs and samples on wet ice until sample preparati on ,API-4500 MS/MS,MicroLab Star,Graduated cylinders and bottles,Pyrex,Sartorius,"Sartorius 
+Ohaus",Qiagen,"Beckman 
+Eppendorf","Corning 
+Matrix","Labsystem 
+Rainin 
+Fisher 
+Eppendorf 
+Thermo","BioHit 
+Thermo 
+Fisher 
+Eppendorf",Hamilton,Analyte / L-Number,"MK-0011 / L-
+000000002",L-000000009,"[13C, D3, 15N]-L-000000002",001F,000D,"003K  
+(SIL-MK-0011 and Epimer mix)",516.59,516.59,521.591,MK-0011,L-000000009,"SIL-MK-0011 and  
+SIL-L-000000009",Plasma,Rabbit,EDTA,"BioIVT 
+NDS in house","[['Mixed \nIntermed\niate \nStandard \nSolution \nID'
+  'Spiking \nStandard \nSolution \nConc. \n(ng/mL)'
+  'Spike \nVolume \n(mL)' 'DMSO \nVolume \n(mL)' 'Final \nVolume \n(mL)'
+  'L-000000009 \nRRT 1.000 \n(MK-0011) \n(%)'
+  'Working \nStandard \nConc. \n(ng/mL)'
+  'Corrected \nWorking \nStandard \nConc. \n(ng/mL)']
+ ['Mixed \nInt STD' '5,000,000 \n(MK-0011 \nStock)' '1.9952' '1.0048'
+  '5.00' '0.24' '1,995,200' '2,000,000']
+ ['' '5,000,000 (L-\n000000009 \nStock)' '2.0000' '' '' 'N/A' '2,000,000'
+  '2,000,000']]","[['Working \nStandard \nSolution \nID'
+  'Spiking \nStandard \nSolution \nConc. \n(ng/mL)'
+  'Spike \nVolume \n(mL)' 'Diluent \nVolume \n(mL)'
+  'Final \nVolume \n(mL)' 'Working \nStandard \nConc. \n(ng/mL)'
+  'Acidified \nPlasma \nStandard \nConc.a \n(ng/mL)'
+  'Plasma \nStandard \nConc. b,c \n(ng/mL)']
+ ['STD 8' '2,000,000 \n(Mixed Int \nSTD)' '1.00' '9.00' '10.0' '200,000'
+  '20,000' '22,000']
+ ['STD 7' '2,000,000 \n(Mixed Int \nSTD)' '0.800' '9.20' '10.0' '160,000'
+  '16,000' '17,600']
+ ['STD 6' '2,000,000 \n(Mixed Int \nSTD)' '0.500' '9.50' '10.0' '100,000'
+  '10,000' '11,000']
+ ['STD 5' '200,000 \n(STD 8)' '1.00' '9.00' '10.0' '20,000' '2,000'
+  '2,200']
+ ['STD 4' '200,000  \n(STD 8)' '0.250' '9.75' '10.0' '5,000' '500' '550']
+ ['STD 3' '20,000  \n(STD 5)' '0.500' '9.50' '10.0' '1,000' '100' '110']
+ ['STD 2' '20,000  \n(STD 5)' '0.200' '9.80' '10.0' '400' '40.0' '44.0']
+ ['STD 1' '20,000  \n(STD 5)' '0.100' '9.90' '10.0' '200' '20.0' '22.0']]","[['Mixed \nIntermediate \nQC \nSolution \nID'
+  'Spiking \nQC Solution \nConc. \n(ng/mL)' 'Spike \nVolume \n(mL)'
+  'DMSO \nVolume \n(mL)' 'Final \nVolume \n(mL)'
+  'L-000000009 \nRRT 1.000 \n(MK-0011) \n(%)'
+  'Working \nQC \nConc. \n(ng/mL)'
+  'Corrected \nWorking \nQC Conc. \n(ng/mL)']
+ ['Mixed Int \nQC' '5,000,000 \n(MK-0011 \nStock)' '1.9952' '1.0048'
+  '5.00' '0.24' '1,995,200' '2,000,000']
+ ['' '5,000,000  \n(L-000000009 \nStock)' '2.0000' '' '' 'N/A'
+  '2,000,000' '2,000,000']]","[['Working QC  \nSolution ID' 'Spiking QC \nSolution \nConc.  \n(ng/mL)'
+  'Spike \nVolume \n(mL)' 'Diluent \nVolume \n(mL)'
+  'Final \nVolume \n(mL)' 'Working QC \nSolution Conc. \n(ng/mL)']
+ ['-A-' '2,000,000 \n(Mixed Int \nQC)' '1.000' '9.000' '10.0' '200,000']
+ ['-B-' '200,000  \n(QC A)' '0.466' '9.534' '10.0' '9,320']
+ ['-C-' '9,320  \n(QC B)' '0.858' '9.142' '10.0' '800']
+ ['-D-' '9,320  \n(QC B)' '0.285' '9.715' '10.0' '266']]","[['Matrix QC ID' 'Spiking QC Solution Conc. \n(ng/mL)'
+  'Spike \nVolume \n(mL)' 'Matrix \nVolume \n(mL)' '30% H3PO4 \n(mL)'
+  'Matrix QC Conc. \n(ng/mL)a']
+ ['HIGH' '200,000 (QC A)' '1.650' '18.350' '2.00' '16,500']
+ ['MID' '9,320 (QC B)' '1.650' '18.350' '2.00' '769']
+ ['LOW' '800 (QC C)' '1.650' '18.350' '2.00' '66.0']
+ ['LLOQ' '266 (QC D)' '0.825' '9.175' '1.00' '22.0']]","[['Step' 'Activity']
+ ['1'
+  'Prepare the standard spiked blank acidified rabbit plasma as follows: \nTo a microtiter tube, add: \n• \n180 µL of blank acidified rabbit plasma \n• \n20 µL of the appropriate MK-0011 / L-000000009 working standard solution']
+ ['2' 'Cap the microtiter tubes and mix well.  Remove any air bubbles.']
+ ['3'
+  'Add to a 96-round deep well extraction plate (1.2 mL) the following: \nFor Calibration Standards: \n• \n20 µL of appropriate acidified rabbit plasma standards (from Step 2 above)  \n• \n20 µL of IS working standard solution \nFor Blank Samples: \n• \n20 µL of appropriate blank acidified rabbit plasma \n• \n20 µL of ACN/H2O [50/50] with 0.1% FA \nFor Standard 0 (IS Blank Sample): \n• \n20 µL of appropriate blank acidified rabbit plasma \n• \n20 µL of IS working standard solution \nFor Unknown and Quality Control Samples*: \n• \nAppropriate volume of unknown sample or matrix QC (and blank acidified rabbit \nplasma, if needed) for a final volume of 20 µL \n• \n20 µL of IS working standard solution']
+ ['4' 'Add 200 µL of crash solvent (MeOH) to the extraction plate.']
+ ['5' 'Seal the deep well extraction plate with appropriate plate mat.']
+ ['6' 'Vortex for 2 minutes using a multi-tube vortexer at Speed 4.']
+ ['7' 'Centrifuge the plate at 4000 rpm for 5 minutes at 10ºC.']
+ ['8'
+  'Transfer 80 µL of supernatant to a new 96-round deep well extraction plate (1.2 mL).']
+ ['9' 'Dilute the supernatant with 120 µL of H2O with 0.1% FA.']
+ ['10'
+  'Seal the deep well collection plate with appropriate storage mat.']
+ ['11' 'Vortex for 2 minutes using a multi-tube vortexer at Speed 4.']
+ ['12' 'Centrifuge the plate at 4000 RPM for 1 minutes at 10ºC.']
+ ['13'
+  'Place the deep well plate in the autosampler and inject appropriate volume.']]","Gradient, see below for details",1% PFPA in H2O,1% PFPA in MeOH,TIS,Positive,unit/unit,MRM,500°C,5.0070 ms,0.0000 ms,MK-0011,517.2,346.1,300.00,60.00,10.00,24.00,11.00,L-000000009,517.2,346.1,300.00,60.00,10.00,24.00,11.00,SIL-MK-0011,522.4,351.2,300.00,60.00,10.00,24.00,11.00,SIL-L-000000009,522.4,351.2,300.00,60.00,10.00,24.00,11.00,"MK-0011 / L-000000009 
+(22.0 ng/mL acidified 
+rabbit plasma)","MK-0011 ≥ 700 cps 
+L-000000009 ≥ 700 cps","MK-0011 3.90 ± 
+0.5 
+L-000000009 4.20 
+± 0.5",≥ 0.25,"MK-0011 /        
+L-000000009","MK-0011 ≥20,000 cps 
+L-000000009 ≥20,000 cps","MK-0011 3.90 ± 0.5 
+L-000000009 4.20 ± 0.5",≥ 0.25, Madison Lazeration Tonya Jackson James Schiller    
