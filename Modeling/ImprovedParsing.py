@@ -37,17 +37,17 @@ mainCompound = []
 # Species
 species = [" Rat ", " Monkey ", " Dog ", " Cat ", " Rabbit ", " Human "]
 # Matrix
-matrix = [" Plasma " , " Urine ", " Serum ", " Liver ", " Brain "]
+matrix = [" Plasma", " Urine", " Serum", " Liver", " Brain"]
 # Extraction Method
-extraction_method = ["protein precipitation", "liquid liquid extraction", "solid phase extraction", "immunoprecipitation", "solid liquid extraction"]
-# Chromatography
-chromatography = ["reversed phase", "normal phase","ion exchange","hydrophilic interaction","liquid chromatography"]
+extraction_method = [" protein precipitation ", " liquid liquid extraction ", " solid phase extraction ", " immunoprecipitation ", " solid liquid extraction "]
+# Chromatography 
+chromatography = [" reversed phase ", " normal phase "," ion exchange "," hydrophilic interaction "," liquid chromatography "]
 # Ionization Method
-ionization_method = ["turbo ionspray", "Atmospheric pressure chemical ionization"]
+ionization_method = [" turbo ionspray ", " Atmospheric pressure chemical ionization "]
 # Polarity
-polarity = ["positive", "negative"]
+polarity = [" positive ", " negative "]
 # Regression Model
-regression_model = ["linear","quadratic"]
+regression_model = [" linear "," quadratic "]
 # Weighting
 weighting = ["1/x","1/x2"]
 # Dilutent
@@ -87,7 +87,7 @@ def valueFindSearchList(value, nameType):
 
 bpNumber = compoundFindSearch("BP Number","BP")
 
-speciesValue = valueFindSearchList(species, "Species")
+# speciesValue = valueFindSearchList(species, "Species") [happens to be wrong sometimes]
 matrixValue = valueFindSearchList(matrix, "Matrix")
 extractionMethodValue = valueFindSearchList(extraction_method, "Extraction Method")
 chromatographyValue = valueFindSearchList(chromatography, "Chromatography")
@@ -109,7 +109,7 @@ rows.append(LLOQ)
 # Calibration Range
 
 calibrationRange = None
-calibrationRange = re.search(r"calibration range from (.*?) to (.*?) ng", searchString, re.I)
+calibrationRange = re.search(r"calibration range from (.*?) to ([^\s]+)", searchString, re.I)
 headers.append("Calibration Range From")
 rows.append(calibrationRange.group(1))
 headers.append("Calibration Range To")
@@ -216,7 +216,7 @@ def findLabelRowValuesButTextIsTooClose(searchTable, searchColumns):
                         headers.append("MK Number")
                         rows.append(str(searchTable[row][column]))              
                 if column != 0:
-                    headers.append(searchTable[row][0] + searchColumns[column - 1])
+                    headers.append(searchTable[row][0] + " " + searchColumns[column - 1])
                     rows.append(searchTable[row][column])
 
 counter = 0
