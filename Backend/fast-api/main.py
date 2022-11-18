@@ -1,6 +1,6 @@
-from typing import Union
+#from typing import Union
 from fastapi import FastAPI, Response, File, UploadFile
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, RedirectResponse
 from pydantic import BaseModel
 from deta import Deta, Drive
 from dotenv import load_dotenv
@@ -11,7 +11,6 @@ import PyPDF2
 import re
 import csv
 import camelot
-import pandas as pd
 
 
 app = FastAPI()
@@ -31,13 +30,18 @@ def render():
 
 @app.post("/upload")
 def upload(file: UploadFile = File(...)):
-    name = file.filename
-    f = file.file
-    res = drive.put(name, f)
-    return res
+    #upload file to /tmp
+    with open(f"/tmp/{file.filename}", "wb") as buffer:
+        buffer.write(file.file.read())
+    #get the name of the file from tmp
+    file_name = f"/tmp/{file.filename}"
+    #redirect to the root route
+    return RedirectResponse(url="/", status_code=303)
 
 @app.get("/parse")
 def parse_pdf():
+
+    os.chdir("/tmp") #change directory to /tmp
 
     inputFile = "BP-0001.pdf"
     pdfFileObj = open(inputFile, 'rb')
@@ -53,10 +57,12 @@ def parse_pdf():
         searchString += document
 
     pdfFileObj.close()
+    print("closed the pdf file successfully after building the search string")
 
     # Table Extraction
 
     tables = camelot.read_pdf(inputFile,pages = "1-" + str(numOfPages),line_scale = 40)
+    print("tables extracted successfully with camelot")
 
     # RegEx Parsing
 
@@ -330,10 +336,23 @@ def parse_pdf():
 
     return Response(pd.read_csv('BP-0001.csv').to_json(orient='records'), media_type='application/json')
 
-@app.get("/pdf-test")
-def pdf_test():
-    bp0001 = drive.get('BP-0001.pdf')
-    content = bp0001.read()
-    bp0001.close()
+@app.get("/pdftest")
+def pdfTest():
+    #open the pdf located in /tmp and return the first page text
+    inputFile = "BP-0001.pdf"
+    pdfFileObj = open(f"/tmp/{inputFile}", 'rb')
+    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+    pageObj = pdfReader.getPage(0)
+    return(pageObj.extractText())
 
-    return {"message": "Hello World"}
+@app.get("/allfiles")
+def allfiles():
+    #get all files in /tmp
+    return {"files":os.listdir("/tmp")}
+
+@app.get("/directorytest")
+def directoryTest():
+    cwd = os.getcwd()
+    os.chdir("/tmp")
+    nwd = os.getcwd()
+    return {"cwd":cwd, "nwd":nwd}
